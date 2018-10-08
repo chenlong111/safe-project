@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>安全管控 V1.0</title>
+		<link rel="stylesheet" href="//at.alicdn.com/t/font_858317_dv2dd4vjw06.css" />
+		<link rel="stylesheet" href="css/lxt.css" />
+		<script type="text/javascript" src="js/login/ThreeCanvas.js" ></script>
+		<script type="text/javascript" src="js/login/Snow.js" ></script>
+		<script type="text/javascript" src="js/login/jquery.min.js" ></script>
+		<style type="text/css">
+			
+			body {
+				background-repeat: no-repeat;
+				background-position: center center #2D0F0F;
+				background-image: url(images/snow.jpg);
+				background-size: 100% 100%;
+				position: relative;
+				overflow: hidden;
+			}
+		</style>
+	</head>
+
+	<body onload="init()">
+		
+		<div class="login_container">
+			<div class="login_title">安全管理系统后台登录</div>
+			<div class="login_user_main">
+				<i class="iconfont icon-account login_icon_user"></i>
+				<input type="text" class="login_value user" placeholder="请输入帐号/手机号" />
+			</div>
+			<div class="login_password_main">
+				<i class="iconfont icon-mima login_icon_user"></i>
+				<input type="password" class="login_value password" placeholder="请输入密码" />
+			</div>
+			<div class="login_code_main">
+				<i class="iconfont icon-yanzhengma2 login_icon_user"></i>
+				<input type="text" id="code" class="login_value code" placeholder="请输入验证码" style="width:  calc(100% - 110px);" />
+				<div id="v_container"></div>
+			</div>
+			<div class="login_text"></div>
+			<div class="login_btn">
+				登录
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="js/login/createSnow.js" ></script>
+		<script type="text/javascript" src="js/login/code.js" ></script>
+		<script type="text/javascript" src="js/md5.js" ></script>
+		<script type="text/javascript" src="js/public.js" ></script>
+		<script type="text/javascript" src="js/login/login.js" ></script>
+	</body>
+
+</html>

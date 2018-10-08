@@ -1,0 +1,15 @@
+*{margin: 0;padding: 0;outline: none;}
+a{text-decoration: none;}
+ul,li{list-style-type: none;}
+html,body{width: 100%;height: 100%;}
+.login_container{width: 240px;height: 300px;position: absolute;left: 0;right: 0;margin: auto;top: 0;bottom: 0;box-shadow: -15px 15px 15px rgba(6,17,47,.7);opacity: 0.7;padding: 100px 40px 40px;    background: #35394a;
+    background: -webkit-gradient(linear,left bottom,right top,color-stop(0%,#35394a),color-stop(100%,rgb(0,0,0)));
+    background: -webkit-linear-gradient(230deg,rgba(53,57,74,0) 0%,rgb(0,0,0) 100%);
+    background: linear-gradient(230deg,rgba(53,57,74,0) 0%,rgb(0,0,0) 100%);}
+.login_user_main,.login_password_main,.login_code_main{width: 100%;height: 40px;clear: both;position: relative;}
+.login_btn{width: 100px;height: 40px;border-radius: 50px;border: 1px solid #00a0e9;color: #00a0e9;font-size: 15px;cursor: pointer;text-align: center;line-height: 40px;margin-top: 30px;}
+.login_title{font-size: 15px;color: white;height: 60px;}
+.login_icon_user{color: white;line-height: 40px;}
+.login_value{display: inline-block;width: calc(100% - 30px);border: none;background-color: transparent;height: 40px;line-height: 40px;font-size: 14px;color: white;margin-left: 5px;}
+#v_container{width: 70px;height: 40px;position: absolute;top: 0;right: 0;}
+.login_text{font-size: 14px;line-height: 30px;color: red;}
